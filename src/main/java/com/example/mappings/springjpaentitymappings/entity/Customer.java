@@ -17,7 +17,7 @@ public class Customer {
 
     public Customer(String name){
         this.name=name;
-
+//commented line 29 added comments
     }
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name ="customer_item",
